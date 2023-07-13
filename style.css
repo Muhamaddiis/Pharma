@@ -1,0 +1,48 @@
+body {
+    background: #dee9FF;
+}
+.background {
+    background-image: image("./images/background.png");
+    box-sizing: cover;
+    width: 100%;
+}
+
+.navbar,
+#showcase {
+    background-image: url('images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#contact-us,
+#about-us,
+#benefits{
+    color: #043CAA;
+}
+#needs {
+    color: #043CAA;
+}
+/* #benefits::after{
+    content: "";
+    width: 70px;
+    height: 2px;
+    background: linear-gradient(#043CAA 50%, #1BC768 50%);
+    position: absolute;
+    left: 60%;
+    top: 50%;
+} */
+
+.testimonials {
+    color: #043CAA;
+}
+#footer {
+    background: #043CAA;
+}
+@media only screen and (max-width: 600px){
+    #pills{
+        display: none;
+    }
+    #people{
+        display: none;
+    }
+}
